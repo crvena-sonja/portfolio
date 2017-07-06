@@ -40,7 +40,7 @@ header p {
 }
 
 
-@media (min-width:1000px){
+@media (min-width:875px){
     header p{
         margin-left: 35em;
     }
