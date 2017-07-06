@@ -1,12 +1,8 @@
 @import 'https://fonts.googleapis.com/css?family=Roboto:300,400,500';
 
-body {
-  margin: 0 auto;
-  max-width: 50em;
-  font-family: "Roboto", "Helvetica", "Arial", sans-serif;
-  line-height: 1.5;
-  padding: 4em 1em;
-  color: #555;
+html{
+    display: block;
+    height: 100%;
 }
 
 header {
@@ -18,8 +14,48 @@ header {
   line-height: 1.2;
   padding: 10vw 2em;
   text-align: right;
+  height: 100vh;
+  max-width: none;
 }
 
+body {
+  margin: 0 auto;
+  height: 100%;
+  font-family: "Roboto", "Helvetica", "Arial", sans-serif;
+  line-height: 1.5;
+  /*padding: 0em 1em;*/
+  padding-bottom: 3em;
+  color: #555;
+}
+
+.work{
+    max-width: 50em;
+    margin: 0 auto;
+}
+
+header p {
+    /*margin-left: 40em;*/
+    color: #333;
+    max-width: 50em;
+}
+
+
+@media (min-width:1000px){
+    header p{
+        margin-left: 35em;
+    }
+}
+
+
+a#inline:hover{
+  padding: 0;
+  font-style: italic;
+}
+
+
+a:hover {
+  padding: 12px;
+}
 
 
 h1,
@@ -38,23 +74,35 @@ h2 {
 }
 
 .project{
-  background: #eee;
-  border-left: 2px solid #69c;
+  /*background: #eee;*/
+  text-align: left;
+  border-left: 2px solid #555;
 }
 
 .project, .contact {
   padding: 2px 4px;
   vertical-align: text-bottom;
-  margin-bottom: 10px;
+  padding-bottom: 1em;
+  margin-bottom: 1em;
 }
 
+.project-even{
+    text-align: right;
+    border-right: 2px solid #555;
+    border-left:none;
+}
 
 a {
-  color: orangered;
+  color: tomato;
+  /*color: #e05038;*/
+  text-decoration: none;
 }
 
-li {
+ul, li{
     list-style: none;
+    list-style-position:inside;
+    margin:0;
+    padding:0;
 }
 
 form > label{
@@ -63,4 +111,8 @@ form > label{
 
 .cf-name, .cf-email, .cf-message, button{
     display: inline-block;
+}
+
+.project-links{
+    margin-top: 10px;
 }
