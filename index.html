@@ -3,6 +3,7 @@
     <head>
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="style.css">
         <title>J. Random Hacker</title>
     </head>
     <body>
@@ -16,8 +17,8 @@
                 </ul>
             </nav>
 
-            <img class="headshot" src="http://unsplash.it/150/150"
-                alt="J. Random Hacker headshot">
+            <!--<img class="headshot" src="https://unsplash.com/?photo=MAgPyHRO0AA"
+                alt="J. Random Hacker headshot">-->
 
             <p class="about" id="about">
                 Hi, I'm J. Random Hacker, a full-stack web developer from Nowheresville, USA.  I use React and Node.js to build web apps which leave you with a minty fresh taste in your mouth.  Outside of coding I enjoy watching <a href="https://www.youtube.com/watch?v=6SFNW5F8K9Y">this video</a> on repeat.
@@ -153,12 +154,18 @@
             <h2>Contact me</h2>
             <form action="https://formspree.io/jrandomhacker@example.com"
                   method="POST">
-                <label for="contact-form-name">Your Name</label>
-                <input type="text" name="name" id="contact-form-name" placeholder="Grace Hopper">
-                <label for="contact-form-email">Your Email Address</label>
-                <input type="email" name="_replyto" id="contact-form-email" placeholder="grace@example.com">
-                <label for="contact-form-message">Message</label>
-                <textarea name="message" id="contact-form-message"></textarea>
+                <div class="cf-name">
+                    <label for="contact-form-name">Your Name</label>
+                    <input type="text" name="name" id="contact-form-name" placeholder="Grace Hopper">
+                </div>
+                <div class="cf-email">
+                    <label for="contact-form-email">Your Email Address</label>
+                    <input type="email" name="_replyto" id="contact-form-email" placeholder="grace@example.com">
+                </div>
+                <div class="cf-message">
+                    <label for="contact-form-message">Message</label>
+                    <textarea name="message" id="contact-form-message"></textarea>
+                </div>
                 <input type="submit" value="Send message">
             </form> 
         </section>

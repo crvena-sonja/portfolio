@@ -1,0 +1,66 @@
+@import 'https://fonts.googleapis.com/css?family=Roboto:300,400,500';
+
+body {
+  margin: 0 auto;
+  max-width: 50em;
+  font-family: "Roboto", "Helvetica", "Arial", sans-serif;
+  line-height: 1.5;
+  padding: 4em 1em;
+  color: #555;
+}
+
+header {
+  background-color: #263d36;
+  background-image: url("header.jpg");
+  background-position: center top;
+  background-repeat: no-repeat;
+  background-size: cover;
+  line-height: 1.2;
+  padding: 10vw 2em;
+  text-align: right;
+}
+
+
+
+h1,
+h2,
+strong {
+  color: #333;
+}
+
+h2 {
+  margin-top: 1em;
+  padding-top: 1em;
+}
+
+.work > h2 {
+    display: block;
+}
+
+.project{
+  background: #eee;
+  border-left: 2px solid #69c;
+}
+
+.project, .contact {
+  padding: 2px 4px;
+  vertical-align: text-bottom;
+  margin-bottom: 10px;
+}
+
+
+a {
+  color: orangered;
+}
+
+li {
+    list-style: none;
+}
+
+form > label{
+    display: block;
+}
+
+.cf-name, .cf-email, .cf-message, button{
+    display: inline-block;
+}
