@@ -44,9 +44,14 @@ header p {
 
 
 
+
 @media (min-width:875px){
     header p{
         margin-left: 45em;
+    }
+
+    .project-image{
+        width: 50%;
     }
 }
 
