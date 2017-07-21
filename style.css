@@ -50,6 +50,15 @@ header p {
         margin-left: 45em;
     }
 
+    .project-even p{
+        width: 75%;
+        margin-left: 25%; 
+    }
+    
+    section p{
+        width: 75%;
+    }
+
     .project-image{
         width: 50%;
     }
