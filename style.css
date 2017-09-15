@@ -8,7 +8,7 @@ html{
 
 header {
   background-color: #263d36;
-  background-image: url("header.jpg");
+  background-image: url("header_mobile.jpg");
   background-position: center top;
   background-repeat: no-repeat;
   background-size: cover;
@@ -30,7 +30,6 @@ body {
 }
 
 .work{
-    max-width: 50em;
     margin: 0 auto;
     margin-bottom: 2em;
 }
@@ -48,19 +47,32 @@ header p {
         width: 100%;
     }
 
+    .project-even{
+
+    }
+
     .project-image{
         width: 75%;
     }
 }
 
+@media (min-width: 750px){
+    header p{
+        margin-left: 20em;
+    }
+}
 
 @media (min-width:875px){
+    .work{
+        max-width: 50em;
+    }
+
     header {
         background-image: url("header.jpg");
     }
 
     header p{
-        margin-left: 45em;
+        margin-left: 35em;
     }
 
     .project-even p{
@@ -74,6 +86,12 @@ header p {
 
     .project-image{
         width: 50%;
+    }
+}
+
+@media (min-width: 1000px){
+    header p{
+        margin-left: 45em;
     }
 }
 
