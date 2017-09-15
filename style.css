@@ -47,10 +47,6 @@ header p {
         width: 100%;
     }
 
-    .project-even{
-        text-align: left;
-    }
-
     .project-image{
         width: 75%;
     }
@@ -78,6 +74,10 @@ header p {
     .project-even p{
         width: 75%;
         margin-left: 25%; 
+    }
+
+    .project-even {
+        text-align: right;
     }
     
     section p{
@@ -152,7 +152,7 @@ h2 {
 }
 
 .project-even{
-    text-align: right;
+    /* text-align: right; */
     padding-right: 1em;
     border-right: 2px solid #555;
     border-left:none;
