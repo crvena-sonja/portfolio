@@ -43,9 +43,22 @@ header p {
 }
 
 
+@media (max-width: 874px){
+    .project, .project-even{
+        width: 100%;
+    }
+
+    .project-image{
+        width: 75%;
+    }
+}
 
 
 @media (min-width:875px){
+    header {
+        background-image: url("header.jpg");
+    }
+
     header p{
         margin-left: 45em;
     }
