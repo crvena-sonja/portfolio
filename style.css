@@ -65,6 +65,9 @@ header p {
     header p{
         margin-left: 20em;
     }
+
+  
+
 }
 
 @media (min-width:875px){
@@ -85,7 +88,7 @@ header p {
         margin-left: 25%; 
     }
 
-    .project-even {
+    .project-even{
         text-align: right;
     }
     
